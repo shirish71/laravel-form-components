@@ -1,0 +1,67 @@
+{
+    "name": "shirish71/laravel-form-components",
+    "description": "Blade components to rapidly build forms with Tailwind CSS Custom Forms and Bootstrap 4.",
+    "keywords": [
+        "shirish71",
+        "tailwind",
+        "tailwindcss",
+        "bootstrap",
+        "bootstrap4",
+        "laravel",
+        "form",
+        "forms",
+        "form-builder",
+        "form-components",
+        "laravel-form-builder",
+        "laravel-form-components"
+    ],
+    "homepage": "https://github.com/shirish71/laravel-form-components",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Shirish Maharjan",
+            "email": "shirishmaharjan71@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "illuminate/support": "^7.22.4 || ^8.0",
+        "symfony/http-foundation": "^5.1.2"
+    },
+    "require-dev": {
+        "livewire/livewire": "^2.0",
+        "mockery/mockery": "^1.3.3",
+        "orchestra/testbench-browser-kit": "^5.1 || ^6.0",
+        "phpunit/phpunit": "^8.5 || ^9.0",
+        "spatie/laravel-translatable": "^4.4",
+        "symfony/dom-crawler": "^5.1.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shirish71\\LaravelFormComponents\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shirish71\\LaravelFormComponents\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "shirish71\\LaravelFormComponents\\Support\\ServiceProvider"
+            ]
+        }
+    }
+}
