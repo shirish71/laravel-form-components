@@ -1,10 +1,11 @@
 <?php
 
-namespace Shirish71\LaravelFormComponents\Components;
+
+namespace Shirish71\TailwindForm\Components;
 
 use Illuminate\Support\Str;
+use Shirish71\TailwindForm\FormDataBinder;
 use Illuminate\View\Component as BaseComponent;
-use Shirish71\LaravelFormComponents\FormDataBinder;
 
 abstract class Component extends BaseComponent
 {
@@ -18,13 +19,14 @@ abstract class Component extends BaseComponent
     /**
      * {@inheritDoc}
      */
+
     public function render()
     {
         $alias = Str::kebab(class_basename($this));
 
-        $config = config("form-components.components.{$alias}");
+        $config = config("tailwind-form.components.{$alias}");
 
-        $framework = config("form-components.framework");
+        $framework = config("tailwind-form.framework");
 
         return str_replace('{framework}', $framework, $config['view']);
     }
@@ -66,8 +68,14 @@ abstract class Component extends BaseComponent
      *
      * @return string
      */
+    public function for(): string
+    {
+
+    }
+
     public function id(): string
     {
+        dd($this->attributes);
         if ($this->id) {
             return $this->id;
         }
@@ -86,17 +94,18 @@ abstract class Component extends BaseComponent
      */
     protected function generateIdByName(): string
     {
-        return "auto_id_" . $this->name;
+        return "auto_id_".$this->name;
     }
 
     /**
      * Converts a bracket-notation to a dotted-notation
      *
-     * @param string $name
+     * @param  string  $name
      * @return string
      */
     protected static function convertBracketsToDots($name): string
     {
         return str_replace(['[', ']'], ['.', ''], $name);
     }
+
 }

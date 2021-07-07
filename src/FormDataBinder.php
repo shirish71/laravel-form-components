@@ -1,6 +1,6 @@
 <?php
 
-namespace Shirish71\LaravelFormComponents;
+namespace Shirish71\TailwindForm;
 
 use Illuminate\Support\Arr;
 
@@ -19,7 +19,7 @@ class FormDataBinder
     /**
      * Bind a target to the current instance
      *
-     * @param mixed $target
+     * @param  mixed  $target
      * @return void
      */
     public function bind($target): void
@@ -70,7 +70,7 @@ class FormDataBinder
     /**
      * Enable Livewire binding with an optional modifier.
      *
-     * @param string $modifier
+     * @param  string  $modifier
      * @return void
      */
     public function wire($modifier = null): void

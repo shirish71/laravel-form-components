@@ -4,7 +4,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/shirish71/tailwind-form.svg?style=flat-square)](https://packagist.org/packages/shirish71/tailwind-form)
 ![GitHub Actions](https://github.com/shirish71/tailwind-form/actions/workflows/main.yml/badge.svg)
 
-This package is inspired by protonemedia/laravel-form-components with some extra twist.
+This package is inspired by Shirish71 / laravel-form-components with some extra twist.
 
 
 ## Installation
@@ -12,7 +12,7 @@ This package is inspired by protonemedia/laravel-form-components with some extra
 You can install the package via composer:
 
 ```bash
-composer require shirish71/laravel-form-components
+composer require shirish71/tailwind-form
 ```
 
 ## Usage
@@ -48,3 +48,7 @@ tracker.
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+## Laravel Package Boilerplate
+
+This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
