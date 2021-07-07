@@ -1,6 +1,6 @@
 <?php
 
-namespace Shirish71\TailwindForm\Traits;
+namespace Shirish71\LaravelFormComponents\Traits;
 
 trait HandlesDefaultAndOldValue
 {

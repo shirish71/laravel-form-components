@@ -1,10 +1,10 @@
 <?php
 
-namespace Shirish71\TailwindForm\Traits;
+namespace Shirish71\LaravelFormComponents\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
-use Shirish71\TailwindForm\FormDataBinder;
+use Shirish71\LaravelFormComponents\FormDataBinder;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 trait HandlesBoundValues

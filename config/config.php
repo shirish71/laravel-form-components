@@ -1,6 +1,6 @@
 <?php
 
-use Shirish71\TailwindForm\Components;
+use Shirish71\LaravelFormComponents\Components;
 
 /*
  * You can place your custom package configuration in here.
@@ -13,56 +13,56 @@ return [
 
     'components' => [
         'form' => [
-            'view' => 'tailwind-form::{framework}.form',
+            'view' => 'laravel-form-components::{framework}.form',
             'class' => Components\Form::class,
         ],
         'success-message' => [
-            'view' => 'tailwind-form::{framework}.form',
+            'view' => 'laravel-form-components::{framework}.form',
             'class' => Components\SuccessMessage::class,
         ],
         'form-error' => [
-            'view' => 'tailwind-form::{framework}.form-errors',
+            'view' => 'laravel-form-components::{framework}.form-errors',
             'class' => Components\FormError::class,
         ],
         'form-input' => [
-            'view' => 'tailwind-form::{framework}.form-input',
+            'view' => 'laravel-form-components::{framework}.form-input',
             'class' => Components\FormInput::class,
         ],
         'form-label' => [
-            'view' => 'tailwind-form::{framework}.form-label',
+            'view' => 'laravel-form-components::{framework}.form-label',
             'class' => Components\FormLabel::class,
         ],
 
 //        'form-checkbox' => [
-//            'view' => 'tailwind-form::{framework}.form-checkbox',
+//            'view' => 'laravel-form-components::{framework}.form-checkbox',
 //            'class' => Components\FormCheckbox::class,
 //        ],
 //
 //
 //        'form-group' => [
-//            'view' => 'tailwind-form::{framework}.form-group',
+//            'view' => 'laravel-form-components::{framework}.form-group',
 //            'class' => Components\FormGroup::class,
 //        ],
 //
 //
 //
 //        'form-radio' => [
-//            'view' => 'tailwind-form::{framework}.form-radio',
+//            'view' => 'laravel-form-components::{framework}.form-radio',
 //            'class' => Components\FormRadio::class,
 //        ],
 //
 //        'form-select' => [
-//            'view' => 'tailwind-form::{framework}.form-select',
+//            'view' => 'laravel-form-components::{framework}.form-select',
 //            'class' => Components\FormSelect::class,
 //        ],
 //
 //        'form-submit' => [
-//            'view' => 'tailwind-form::{framework}.form-submit',
+//            'view' => 'laravel-form-components::{framework}.form-submit',
 //            'class' => Components\FormSubmit::class,
 //        ],
 //
 //        'form-textarea' => [
-//            'view' => 'tailwind-form::{framework}.form-textarea',
+//            'view' => 'laravel-form-components::{framework}.form-textarea',
 //            'class' => Components\FormTextarea::class,
 //        ],
     ],

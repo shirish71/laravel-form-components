@@ -1,11 +1,11 @@
 {
-    "name": "shirish71/tailwind-form",
+    "name": "shirish71/laravel-form-components",
     "description": "form components for tailwind",
     "keywords": [
         "shirish71",
-        "tailwind-form"
+        "laravel-form-components"
     ],
-    "homepage": "https://github.com/shirish71/tailwind-form",
+    "homepage": "https://github.com/shirish71/laravel-form-components",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Shirish71\\TailwindForm\\": "src"
+            "Shirish71\\LaravelFormComponents\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Shirish71\\TailwindForm\\Tests\\": "tests"
+            "Shirish71\\LaravelFormComponents\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,7 +44,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Shirish71\\TailwindForm\\TailwindFormServiceProvider"
+                "Shirish71\\LaravelFormComponents\\LaravelFormComponentsServiceProvider"
             ]
         }
     }

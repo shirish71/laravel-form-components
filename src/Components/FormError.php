@@ -1,6 +1,6 @@
 <?php
 
-namespace Shirish71\TailwindForm\Components;
+namespace Shirish71\LaravelFormComponents\Components;
 
 
 use Illuminate\Support\Str;

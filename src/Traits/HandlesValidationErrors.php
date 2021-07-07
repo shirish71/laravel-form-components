@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Shirish71\TailwindForm\Traits;
+namespace Shirish71\LaravelFormComponents\Traits;
 
 use Illuminate\Support\Str;
 use Illuminate\Support\ViewErrorBag;

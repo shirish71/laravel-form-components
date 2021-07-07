@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Shirish71\TailwindForm\Components;
+namespace Shirish71\LaravelFormComponents\Components;
 
 class SuccessMessage extends Component
 {

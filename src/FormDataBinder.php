@@ -1,6 +1,6 @@
 <?php
 
-namespace Shirish71\TailwindForm;
+namespace Shirish71\LaravelFormComponents;
 
 use Illuminate\Support\Arr;
 

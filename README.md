@@ -1,8 +1,8 @@
 # Form Solution for laravel
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/shirish71/tailwind-form.svg?style=flat-square)](https://packagist.org/packages/shirish71/tailwind-form)
-[![Total Downloads](https://img.shields.io/packagist/dt/shirish71/tailwind-form.svg?style=flat-square)](https://packagist.org/packages/shirish71/tailwind-form)
-![GitHub Actions](https://github.com/shirish71/tailwind-form/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/shirish71/laravel-form-components.svg?style=flat-square)](https://packagist.org/packages/shirish71/laravel-form-components)
+[![Total Downloads](https://img.shields.io/packagist/dt/shirish71/laravel-form-components.svg?style=flat-square)](https://packagist.org/packages/shirish71/laravel-form-components)
+![GitHub Actions](https://github.com/shirish71/laravel-form-components/actions/workflows/main.yml/badge.svg)
 
 This package is inspired by Shirish71 / laravel-form-components with some extra twist.
 
@@ -12,7 +12,7 @@ This package is inspired by Shirish71 / laravel-form-components with some extra 
 You can install the package via composer:
 
 ```bash
-composer require shirish71/tailwind-form
+composer require shirish71/laravel-form-components
 ```
 
 ## Usage

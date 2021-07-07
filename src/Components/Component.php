@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Shirish71\TailwindForm\Components;
+namespace Shirish71\LaravelFormComponents\Components;
 
 use Illuminate\Support\Str;
-use Shirish71\TailwindForm\FormDataBinder;
+use Shirish71\LaravelFormComponents\FormDataBinder;
 use Illuminate\View\Component as BaseComponent;
 
 abstract class Component extends BaseComponent
@@ -24,9 +24,9 @@ abstract class Component extends BaseComponent
     {
         $alias = Str::kebab(class_basename($this));
 
-        $config = config("tailwind-form.components.{$alias}");
+        $config = config("laravel-form-components.components.{$alias}");
 
-        $framework = config("tailwind-form.framework");
+        $framework = config("laravel-form-components.framework");
 
         return str_replace('{framework}', $framework, $config['view']);
     }

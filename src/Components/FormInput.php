@@ -1,9 +1,9 @@
 <?php
 
-namespace Shirish71\TailwindForm\Components;
+namespace Shirish71\LaravelFormComponents\Components;
 
-use Shirish71\TailwindForm\Traits\HandlesValidationErrors;
-use Shirish71\TailwindForm\Traits\HandlesDefaultAndOldValue;
+use Shirish71\LaravelFormComponents\Traits\HandlesValidationErrors;
+use Shirish71\LaravelFormComponents\Traits\HandlesDefaultAndOldValue;
 
 class FormInput extends Component
 {
