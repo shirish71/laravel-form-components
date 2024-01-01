@@ -4,7 +4,6 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/shirish71/laravel-form-components.svg?style=flat-square)](https://packagist.org/packages/shirish71/laravel-form-components)
 ![GitHub Actions](https://github.com/shirish71/laravel-form-components/actions/workflows/main.yml/badge.svg)
 
-This package is inspired by Shirish71 / laravel-form-components with some extra twist.
 
 
 ## Installation
